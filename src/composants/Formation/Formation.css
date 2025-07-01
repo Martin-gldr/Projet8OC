@@ -1,0 +1,21 @@
+.formation{
+    width: 100%;
+    padding: 30px 50px 50px 50px ;
+    background-color: azure;
+    border-radius: 50px;
+    margin: 50px 0px;
+
+}
+.formation h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media(max-width:768px){
+    .formation{
+        border-radius: 0;
+        padding: 20px 0 50px 0;
+    
+    }
+    
+}
