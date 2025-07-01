@@ -6,8 +6,9 @@ export function Project (props){
     const skillTwo = props.skillTwo
     const skillThree = props.skillThree
     const skillThreeClass = props.skillThreeClass
+    const link = props.link
     return(
-        <div className='project'>
+        <a className='project' href={link}>
             
             <div className='project-title'> 
                 <img src={logo} alt={desc}/>
@@ -22,6 +23,6 @@ export function Project (props){
                 <img src={skillThree} className={skillThreeClass} alt='skill three' />
             </div>
             
-        </div>
+        </a>
     )
 }

@@ -143,11 +143,11 @@ export function Carousel() {
     return (
         <div className='view-box'>
             <div className={`carousel ${resize}`} style={transform}>
-                <div ref={ref}><Project  desc="Integration css et html d'un site de renseignements touristique." logo={booki} skillOne={html} skillTwo={css} skillThreeClass='hide' /></div>
-                <div ><Project  desc="Developpement frontend d'un site d'architect d'interieur." logo={bluel} skillOne={html} skillTwo={css} skillThree={js} /></div>
-                <div ><Project  desc="Débuggage et optimisation SEO d'un site de photographie" logo={nina} skillOne={lighthouse} skillTwo={SEO} skillThree={debug}/></div>
-                <div ><Project  desc="Developpement frontend, en utlisant React+vite d'un site de location" logo={Kasa} skillOne={booki} skillTwo={ReactL} skillThree={js} /></div>
-                <div ><Project  desc="Developpement du backend d'un site de notation de livre" logo={livre} skillOne={nodejs} skillTwo={express} skillThree={mongodb} /></div>
+                <div ref={ref}><Project  desc="Integration css et html d'un site de renseignements touristique." logo={booki} skillOne={html} skillTwo={css} skillThreeClass='hide' link="https://github.com/Martin-gldr/projet2OC.git"/></div>
+                <div ><Project  desc="Developpement frontend d'un site d'architect d'interieur." logo={bluel} skillOne={html} skillTwo={css} skillThree={js} link="https://github.com/Martin-gldr/Projet3OC.git" /></div>
+                <div ><Project  desc="Débuggage et optimisation SEO d'un site de photographie" logo={nina} skillOne={lighthouse} skillTwo={SEO} skillThree={debug} link="https://github.com/Martin-gldr/Projet-4OC.git"/></div>
+                <div ><Project  desc="Developpement frontend, en utlisant React+vite d'un site de location" logo={Kasa} skillOne={booki} skillTwo={ReactL} skillThree={js} link="https://github.com/Martin-gldr/Projet-5OC.git"/></div>
+                <div ><Project  desc="Developpement du backend d'un site de notation de livre" logo={livre} skillOne={nodejs} skillTwo={express} skillThree={mongodb} link="https://github.com/Martin-gldr/projet6OC.git" /></div>
                 <div ><Project  desc="Gestion du projet pour le developpement d'un site de creation et exportation de menus" logo={qwenta} skillOne={notion} skillTwo={feedly} skillThree={scrum}/></div>
 
 

@@ -11,6 +11,10 @@
     color: black;
 
 }
+.project:hover{
+    color: pink;
+    cursor: pointer;
+}
 .description {
     display: -webkit-box;
     -webkit-line-clamp: 3; 
