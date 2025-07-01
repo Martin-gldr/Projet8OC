@@ -1,0 +1,100 @@
+.view-box{
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50px;
+}
+.carousel{
+    display: flex;
+    gap:20px;
+ 
+
+    transition-duration: 1s;
+  
+    
+}
+.carousel.resize {
+    transition: none !important;
+    
+}
+.carousel div{
+    min-width: 23.65%;
+   
+  
+}
+.next, .prev{
+    padding : 0px 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: pink;
+    border: 2px solid azure;
+   
+}
+.next:hover, .prev:hover{
+    background-color: black;
+    color: pink;
+    border: 2px solid pink;
+
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 4px;
+}
+
+@media(max-width : 1250px){
+    .carousel div{
+        min-width:23.45% ;
+       
+    }
+    
+}
+@media(max-width : 1150px){
+    .carousel div{
+        min-width:23.35% ;
+       
+    }
+    
+}
+@media(max-width : 1025px){
+    .carousel div{
+        min-width:31.75% ;
+       
+    }
+    
+}
+
+
+@media(max-width : 950px){
+    .carousel div{
+        min-width: 48.65%
+        
+    }
+  
+    
+}
+@media(max-width:830px){
+    .carousel div{
+        min-width: 48.55%
+    }
+}
+@media(max-width : 768px){
+    .carousel div{
+        min-width:100% ;
+        max-height: none;
+    }
+    .btn-flex{
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .prev{
+        border-radius: 0;
+        width: 50%;
+    }
+    .next{
+       border-radius: 0;
+        width: 50%;
+    }
+}
