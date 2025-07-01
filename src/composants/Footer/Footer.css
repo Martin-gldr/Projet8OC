@@ -1,0 +1,26 @@
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 50px;
+    background-color: azure;
+}
+
+@media(max-width:768px){
+    .footer{
+        flex-direction: column;
+        gap:30px;
+        
+    }
+    .footer-contact{
+        margin: auto;
+        text-align: center;
+    }
+    .footer-info{
+        margin: auto;
+        text-align: center;
+        
+
+    }
+}
