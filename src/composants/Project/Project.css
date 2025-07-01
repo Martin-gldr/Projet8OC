@@ -1,0 +1,92 @@
+.project{
+    padding: 30px;
+    background-color: azure;
+    aspect-ratio: 1/1;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%;
+    border: 3px solid pink;
+    color: black;
+
+}
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-clamp: 3;
+    font-size: 14px;
+}
+.description:hover{
+    display: block;
+}
+.project-title{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+}
+.project-title img{
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+
+}
+.project-subtitle{
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 16px;
+}
+.project-skill{
+    display: flex;
+    gap:10px;
+    
+}
+.project-skill img{
+    width:50px;
+    height: 50px;
+    object-fit: contain;
+    
+
+}
+.hide{
+    display:none;
+}
+
+@media(max-width:1025px){
+    .description {
+        display: block;
+        -webkit-line-clamp: none; 
+        line-clamp: none;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 12px;
+    }
+}
+@media (max-width:950px) {
+    .project{
+        aspect-ratio: inherit;
+    }
+   
+}
+
+@media(max-width : 768px){
+   .project{
+    aspect-ratio: inherit;
+   }
+   .description {
+    display: block;
+    -webkit-line-clamp: none; 
+    line-clamp: none;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+}
+@media(max-width:768px){
+    .project{border-radius: 0;}
+}
+    
+}
