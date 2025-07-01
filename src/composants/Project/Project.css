@@ -80,6 +80,7 @@
 @media(max-width : 768px){
    .project{
     aspect-ratio: inherit;
+    height: 300px ;
    }
    .description {
     display: block;
@@ -91,6 +92,11 @@
 }
 @media(max-width:768px){
     .project{border-radius: 0;}
+}
+@media(max-width:400px){
+    .project{
+        height: 350px;
+    }
 }
     
 }
