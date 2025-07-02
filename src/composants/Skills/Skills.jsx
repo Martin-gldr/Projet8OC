@@ -17,9 +17,9 @@ import debug from '../../assets/debug.png'
 import scrum from '../../assets/scrum.png'
 
 export function Skills(){
- let [display, setDisplay]= useState('')
- let [display2, setDisplay2]= useState('')
- let [display3, setDisplay3]= useState('')
+ let [display, setDisplay]= useState('hide')
+ let [display2, setDisplay2]= useState('hide')
+ let [display3, setDisplay3]= useState('hide')
 
     function show(){
         if(display === ''){
