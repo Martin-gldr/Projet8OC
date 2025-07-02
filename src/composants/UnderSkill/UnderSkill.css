@@ -1,0 +1,112 @@
+.underskill{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    color: black;
+    border: 2px solid azure;
+    border-top: none;
+   justify-content: space-between;
+    padding: 20px;
+    width: 98%;
+    font-size: 14px;
+    animation: popIn;
+   
+    animation-duration: 0.5s;
+    
+}
+.underskill img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    animation: popInImg;
+    animation-duration: 0.5s;
+    
+}
+
+
+.hide{
+    display: none;
+    
+}
+
+.hide-transition{  
+    animation: popOut;
+    animation-duration: 0.5s;
+    
+}
+.hide-transition img{
+    animation: popOutImg;
+    animation-duration: 0.5s;
+}
+.underskill-img-flex{
+    display: flex;
+    gap: 10px;
+}
+
+@keyframes popInImg{
+    from{
+        height: 0px;
+
+    }
+    to{
+        height: 50px;
+
+    }
+}
+@keyframes popOutImg{
+    from{
+        height: 50px;
+
+    }
+    to{
+        height: 0px;
+
+    }
+}
+@keyframes popIn {
+    from {
+        padding-top: 2px;
+        line-height: 0;
+        color: pink;
+        
+
+    
+    }
+
+    to {
+    
+        padding-top: 20px;
+        line-height: 1.5;
+        color: black;
+        
+
+       
+
+    }
+}
+@keyframes popOut {
+    from {
+        padding-top: 20px;
+        line-height: 1.5;
+        color: black;
+        .underskill img{
+            height: 50px;
+        }
+       
+    }
+
+    to {
+        padding-top: 0px;
+        line-height: 0;
+        color: pink;
+        .underskill img{
+            height: Opx;
+        }
+        
+
+    }
+}
+@media(max-width:768px){
+    .underskill{flex-direction: column;
+    gap:20px}
+}

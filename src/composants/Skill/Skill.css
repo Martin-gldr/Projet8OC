@@ -1,10 +1,10 @@
 .skill{
-    background-color: azure;
+    background-color: #533B4A ;
     
     padding: 20px 20px;
-    border: 2px solid pink;
+    border: 2px solid azure;
 
-    color: black;
+    color: pink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,99 +14,27 @@
     font-weight: 700;
     
 }
-.underskill{
-    background-color: pink;
-    display: flex;
-    align-items: center;
-    color: black;
-    border: 2px solid azure;
-   
-    padding: 20px;
-    width: 45%;
-    text-align: center;
-    font-size: 14px;
-    animation: popIn;
-    animation-duration: 0.5s;
-    
-}
-.underskill-flex{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    justify-content: center;
-  
-}
+
+
 .skill:hover{
-    background-color: pink;
+    background-color: black;
     border: 2px solid azure;
     cursor: pointer;
 }
 .skill-flex{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+   
     width: 100%;
-}
-.hide{
-    display: none;
-    
-}
-.hide-transition{  
-    animation: popOut;
-    animation-duration: 0.5s;
-}
-
-@keyframes popIn {
-    from {
-        padding-top: 2px;
-        line-height: 0;
-      color: pink; 
-
-    
-    }
-
-    to {
-    
-        padding-top: 20px;
-        line-height: 1.5;
-        color: black;
-       
-
-    }
-}
-@keyframes popOut {
-    from {
-        padding-top: 20px;
-        line-height: 1.5;
-        color: black;
-       
-    }
-
-    to {
-        padding-top: 0px;
-        line-height: 0;
-        color: pink;
-        
-
-    }
 }
 
 @media(max-width:768px){
-    .underskill{
-        border-radius: 0;
-        width: 95%;
-
-    }
+  
     .skill-flex{
         gap: 0px;
         margin-top: 10px;
     }
-    .underskill-flex{
-        flex-direction: column;
-        gap:0px;
-        justify-content: center;
-        align-items: center;
-    }
+ 
     .skill{
         border-radius: 0;
         

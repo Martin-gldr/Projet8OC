@@ -1,29 +1,79 @@
 
 .banner{
     width: 100%;
-    text-align: center;
+    
     position: relative;
-    max-height: 500px;
+    height: 500px;
+    align-items: center;
     overflow: hidden;
     filter: drop-shadow(0px 5px 0px pink);
+    display: flex;
+    justify-content: center
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
 }
 .banner-title{
-    text-align: center;
+    
     color: azure;
+   padding: 0;
+    font-size: 120px;
    
-    font-size: 70px;
-    line-height: 2;
-    font-family: Bitcount grid double, sans-serif;
+    font-family: VT323, monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+
+    animation: typing 4s steps(20) ;
+    
    
    
 
 }
-.banner img{ 
-    width: 100%;
-    object-fit: cover;
-  
+.banner-title::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 5px;
+    background: pink;
+    right: 0;
+    top:0;
+    animation: cursor 0.85s infinite;
+   
 }
 
+@keyframes typing {
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 100%;
+
+    }
+
+}
+@keyframes cursor{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@media(max-width:1035px){
+    .banner-title{
+        font-size: 70px;
+    
+    
+    }
+}
 @media(max-width:768px){
 .banner-title{
     font-size: 50px;
@@ -44,6 +94,12 @@
 }
 
 @media(max-width:500px){
+    .banner-title{
+        font-size: 30px;
+    }
+   
+}
+@media(max-width:300px){
     .banner-title{
         font-size: 20px;
     }
