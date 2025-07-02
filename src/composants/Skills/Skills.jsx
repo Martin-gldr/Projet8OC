@@ -72,7 +72,7 @@ export function Skills(){
             <div className='flex'> 
                 <Skill show={show2}name="Mes compétences BACKEND" /> 
                 <Underskill display= {display2} desc="NODEJS + EXPRESS -- Implémentation serveur + routes CRUD / Création et gestion de l'authentification+connexion" logo={nodejs} logo2={express}/>
-                <Underskill display= {display2} desc="MONGO-DB -- Initialisation de base de donnée NoSql / Création de modèle de donnée Mongoose " logo={mongodb}hide="hide"/>
+                <Underskill display= {display2} desc="MONGO-DB -- Initialisation de base de données NoSql / Création de modèle de donnée Mongoose " logo={mongodb}hide="hide"/>
                 
 
             </div>
