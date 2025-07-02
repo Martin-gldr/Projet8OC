@@ -10,14 +10,12 @@
 .banner-title{
     text-align: center;
     color: azure;
-    position: absolute;
+   
     font-size: 70px;
     line-height: 2;
     font-family: Bitcount grid double, sans-serif;
    
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+   
 
 }
 .banner img{ 
@@ -33,7 +31,6 @@
 
 }
 .banner{
-    filter:none;
     max-height: 400px;
 }
 }

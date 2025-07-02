@@ -17,14 +17,14 @@
     
 }
 .carousel div{
-    min-width: 23.65%;
+    min-width: 49%;
    
   
 }
 .next, .prev{
     padding : 0px 50px;
     font-size: 30px;
-    border-radius: 50px;
+    border-radius: 0px;
     background-color: pink;
     border: 2px solid azure;
    
@@ -45,21 +45,21 @@
 
 @media(max-width : 1250px){
     .carousel div{
-        min-width:23.45% ;
+        min-width:48.95% ;
        
     }
     
 }
 @media(max-width : 1150px){
     .carousel div{
-        min-width:23.35% ;
+        min-width:48.85% ;
        
     }
     
 }
 @media(max-width : 1025px){
     .carousel div{
-        min-width:31.75% ;
+        min-width:48.75% ;
        
     }
     

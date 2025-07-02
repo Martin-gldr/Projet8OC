@@ -1,9 +1,9 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     background-color: azure;
-    border-radius: 50px;
+    border-radius: 0px;
     padding: 10px 100px;
     border: 3px solid pink;
 
