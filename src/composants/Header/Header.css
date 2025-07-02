@@ -45,3 +45,10 @@
         max-height: 200px;
     }
 }
+
+@media(max-width:500px){
+    .banner-title{
+        font-size: 20px;
+    }
+   
+}

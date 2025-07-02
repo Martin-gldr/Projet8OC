@@ -103,5 +103,9 @@
         height: 600px;
     }
 }
-    
+@media(max-width:300px){
+    .project{
+        height: 800px;
+    }
+}
 }
